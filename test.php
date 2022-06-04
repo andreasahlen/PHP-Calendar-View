@@ -11,7 +11,9 @@
 </head>
 
 <body>
-
+<div id='header'>
+    Header
+</div>
 <!-- page content goes here -->
 <p width="120%" align="center">
 <div id="calendar" class="wrapper">
@@ -92,9 +94,18 @@
             $day++;
         }
     }
+
 ?>
 </div>
 </p>
+<p>
+<?php
+    echo "<div id='footer'>";
+    echo bin2hex(random_bytes(35));
+    echo "</div>";
+?>
+</p>
+
 </body>
 
 </html>
