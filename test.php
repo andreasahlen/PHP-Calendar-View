@@ -13,6 +13,7 @@
 <body>
 
 <!-- page content goes here -->
+<p width="120%" align="center">
 <div id="calendar" class="wrapper">
 <?php
     $localizedDaysOfWeek = array("So", "Mo", "Di", "Mi", "Do", "Fr", "Sa");
@@ -93,7 +94,7 @@
     }
 ?>
 </div>
-
+</p>
 </body>
 
 </html>
