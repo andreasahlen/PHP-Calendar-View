@@ -14,10 +14,11 @@
 </head>
 
 <body>
-
+<div id='header'>
+    Header
+</div>
 <!-- page content goes here -->
 <p class="paligncenter">
-
 <?php
     $localizedDaysOfWeek = array("So", "Mo", "Di", "Mi", "Do", "Fr", "Sa");
     $localizedMonths = array("", "Januar", "Februar", "Maerz", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember");
@@ -103,6 +104,14 @@
     }
     echo "</div>";
 ?>
+</p>
+<p>
+<?php
+    echo "<div id='footer'>";
+    echo bin2hex(random_bytes(35));
+    echo "</div>";
+?>
+</p>
 
 </p>
 </body>
